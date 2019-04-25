@@ -1,6 +1,6 @@
 {
   "name": "@lilonga/code-editor",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Code editor component for React. Based on Ace editor.",
   "author": "lilonga",
   "license": "MIT",
@@ -48,6 +48,5 @@
   ],
   "dependencies": {
     "react-ace": "^6.4.0",
-    "react-styleguidist": "^9.0.8"
   }
 }
