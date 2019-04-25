@@ -47,6 +47,6 @@
     "dist"
   ],
   "dependencies": {
-    "react-ace": "^6.4.0",
+    "react-ace": "^6.4.0"
   }
 }
