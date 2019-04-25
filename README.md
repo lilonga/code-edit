@@ -1,6 +1,9 @@
 # @lilonga/code-editor
 
-> Code editor component for React. Based on Ace editor.
+> Code editor component for React. Based on the Ace editor.
+
+[![Screenshot
+](https://cdn-nuwywyxjm.now.sh/code-editor.png)]
 
 [![NPM](https://img.shields.io/npm/v/@lilonga/code-editor.svg)](https://www.npmjs.com/package/@lilonga/code-editor)
 
@@ -11,7 +14,7 @@ npm install --save @lilonga/code-editor
 ```
 
 ## Usage
-Try out an editable version the below example at Repl.it: [https://repl.it/@lilonga/code-editor](https://repl.it/@lilonga/code-editor)
+Try out an editable version of the below example at Repl.it: [https://repl.it/@lilonga/code-editor](https://repl.it/@lilonga/code-editor)
 
 ```jsx
 import React, { Component } from 'react'
@@ -32,4 +35,4 @@ export default class Example extends Component {
 
 ## License
 
-MIT © [lilonga](https://github.com/lilonga)
+MIT © [Luka Kakia](https://github.com/manguluka)
