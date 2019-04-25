@@ -11,21 +11,22 @@ npm install --save @lilonga/code-editor
 ```
 
 ## Usage
-Try out the below example live: [@lilonga/live-editor demo on Repl.it](https://repl.it/@lilonga/code-editor)
+Try out an editable version the below example at Repl.it: [https://repl.it/@lilonga/code-editor](https://repl.it/@lilonga/code-editor)
+
 ```jsx
 import React, { Component } from 'react'
 
 import CodeEditor from '@lilonga/code-editor'
 
 export default class Example extends Component {
-	render () {
-		return (
-			<CodeEditor 
-				code="<h1>Header</h1>" 
-				onChange={code => console(code)}
-			/>
-		)
-	}
+  render () {
+    return (
+      <CodeEditor 
+        code="<h1>Header</h1>" 
+        onChange={code => console(code)}
+      />
+    )
+  }
 }
 ```
 
