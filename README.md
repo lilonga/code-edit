@@ -2,8 +2,7 @@
 
 > Code editor component for React. Based on the Ace editor.
 
-[![Screenshot
-](https://cdn-nuwywyxjm.now.sh/code-editor.png)]
+[![Screenshot](https://cdn-nuwywyxjm.now.sh/code-editor.png)]
 
 [![NPM](https://img.shields.io/npm/v/@lilonga/code-editor.svg)](https://www.npmjs.com/package/@lilonga/code-editor)
 
