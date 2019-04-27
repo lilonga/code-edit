@@ -1,7 +1,7 @@
 {
   "name": "@lilonga/code-editor",
-  "version": "0.1.5",
-  "description": "Code editor component for React. Based on the Ace editor.",
+  "version": "0.1.6",
+  "description": "Code editor component for React. Based on the Ace editor project.",
   "author": "lilonga",
   "license": "MIT",
   "repository": "lilonga/code-editor",
