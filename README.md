@@ -32,6 +32,9 @@ export default class Example extends Component {
 }
 ```
 
+## API
+See [@lilonga/code-editor docs](https://code-editor-docs.lilo.now.sh) for more examples and documentation
+
 ## License
 
 MIT © [Luka Kakia](https://github.com/manguluka)
