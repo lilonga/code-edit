@@ -13,40 +13,40 @@
     "npm": ">=5"
   },
   "scripts": {
+    "now-build":"yarn add react react-dom && styleguidist build",
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "prepare": "yarn run build",
-    "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages -d example/build"
+    "deploy": "now"
   },
   "peerDependencies": {
     "prop-types": "^15.7.2",
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.0",
-    "@babel/plugin-proposal-class-properties": "^7.4.0",
-    "@babel/preset-env": "^7.4.2",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
     "@babel/preset-react": "^7.0.0",
-    "@svgr/rollup": "^4.1.0",
+    "@svgr/rollup": "^4.2.0",
     "cross-env": "^5.2.0",
-    "react-scripts": "^2.1.8",
-    "rollup": "^1.7.3",
+    "react-scripts": "^3.0.0",
+    "react-styleguidist": "^9.0.8",
+    "rollup": "^1.10.1",
     "rollup-plugin-babel": "^4.3.2",
-    "rollup-plugin-commonjs": "^9.2.2",
-    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-node-resolve": "^4.2.3",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-terser": "^4.0.4",
-    "rollup-plugin-url": "^2.2.0"
+    "rollup-plugin-url": "^2.2.1"
   },
   "files": [
     "dist"
   ],
   "dependencies": {
-    "react-ace": "^6.4.0"
+    "react-ace": "^6.5.0"
   }
 }
