@@ -13,7 +13,7 @@
     "npm": ">=5"
   },
   "scripts": {
-    "now-build":"yarn add react react-dom && styleguidist build",
+    "now-build": "yarn add react react-dom && styleguidist build",
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
     "build": "rollup -c",
@@ -41,7 +41,8 @@
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-terser": "^4.0.4",
-    "rollup-plugin-url": "^2.2.1"
+    "rollup-plugin-url": "^2.2.1",
+    "rollup-plugin-cleanup": "^3.1.1"
   },
   "files": [
     "dist"
